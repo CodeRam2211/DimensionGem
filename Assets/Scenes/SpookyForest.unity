@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 126074395}
   m_Layer: 0
   m_Name: Player
-  m_TagString: MVP
+  m_TagString: Player
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -331,10 +331,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 126074383}
-  RunSpeed: 60
+  RunSpeed: 80
   isCharge: 0
-  maxJumpCharge: 900
-  JumpXSpeed: 140
+  maxJumpCharge: 1000
+  JumpXSpeed: 1400
   tr: {fileID: 126074392}
 --- !u!95 &126074390
 Animator:
@@ -526,10 +526,10 @@ Animation:
   m_GameObject: {fileID: 126074381}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 5b01255ca3284486d884f37e3401b52b, type: 2}
+  m_Animation: {fileID: 0}
   m_Animations:
-  - {fileID: 7400000, guid: 0a7001cb3232f4e9c938c380857cd406, type: 2}
   - {fileID: 7400000, guid: 5b01255ca3284486d884f37e3401b52b, type: 2}
+  - {fileID: 7400000, guid: 0a7001cb3232f4e9c938c380857cd406, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
