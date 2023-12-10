@@ -29,7 +29,7 @@ public class WavepointFollower : MonoBehaviour
 
         }
 
-        transform.position = Vector2.MoveTowards(transform.position, waypoints[currentWaypointsIndex].transform.position, Time.deltaTime * speed);
+        transform.position = Vector2.MoveTowards(transform.position, waypoints[currentWaypointsIndex].transform.position, Time.deltaTime * speed); 
         
     }
 }

@@ -43,7 +43,7 @@ public class PortallerController : MonoBehaviour
         StartCoroutine(MoveinPortal());
         yield return new WaitForSeconds(0.5f);
         player.transform.position = desination.transform.position;
-        playerrb.velocity = Vector2.zero;
+        playerrb.velocity = Vector2.zero; 
         anim.Play("Player_outt_teleport");
         yield return new WaitForSeconds(0.5f);
         anim.SetTrigger("Moved");
